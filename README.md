@@ -1,3 +1,5 @@
+[Open in Red Hat Developer Sandbox](https://workspaces.openshift.com/#https://github.com/apupier/devspaces-camel-minimal.git)
+
 # Minimal example for Camel standalone in OpenShift Dev Spaces
 
 This repository shows the minimal setup to have Red Hat Developer Sandbox setup with capabilities to create, edit graphically or textually, run, debug and deploy a standalone Camel Yaml route.
