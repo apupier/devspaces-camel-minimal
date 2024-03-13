@@ -6,7 +6,7 @@ This repository shows the minimal setup to have Red Hat Developer Sandbox setup 
 
 After opening the repository in Red Hat OpenShift Dev Spaces, wait for all extensions to be installed. You can notice that it is mentioning `installing` during this waiting phase.
 
-On first run, you will have to accept the apache.org domain in the terminal which is opening.
+On first run, you will have to accept the `https://github.com/apache/camel/` domain in the terminal which is opening.
 
 # Technical considerations
 
