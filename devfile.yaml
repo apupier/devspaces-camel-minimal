@@ -4,8 +4,9 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/devfile/universal-developer-image:latest
+      image: quay.io/apupier/devspaces-base-image-for-camel-tooling:latest
       memoryRequest: 1Gi
       memoryLimit: 3Gi
       cpuLimit: 1000m
       cpuRequest: 500m
+      
