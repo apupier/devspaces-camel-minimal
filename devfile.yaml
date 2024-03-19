@@ -9,3 +9,11 @@ components:
       memoryLimit: 3Gi
       cpuLimit: 1000m
       cpuRequest: 500m
+commands:
+  - id: configure-jbang-trust
+    exec:
+      commandLine: jbang  trust add https://github.com/apache/camel/
+      component: tools
+events:
+  postStart:
+    - configure-jbang-trust
