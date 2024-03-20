@@ -1,10 +1,10 @@
 schemaVersion: 2.1.0
 metadata:
-  name: demo-project-minimal-with-run
+  name: demo-project-minimal-with-User1000
 components:
   - name: tools
     container:
-      image: quay.io/devfile/universal-developer-image:latest
+      image: quay.io/apupier/devspaces-base-image-for-camel-tooling:withUser1000
       memoryRequest: 1Gi
       memoryLimit: 3Gi
       cpuLimit: 1000m
