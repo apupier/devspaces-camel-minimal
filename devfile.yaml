@@ -1,6 +1,6 @@
 schemaVersion: 2.1.0
 metadata:
-  name: demo-project-minimal-with-run
+  name: demo-project-minimal-with-user-10001
 components:
   - name: tools
     container:
