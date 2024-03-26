@@ -10,4 +10,18 @@ On first run, you will have to accept the `https://github.com/apache/camel/` dom
 
 # Technical considerations
 
-A devfile is provided to have `jbang` available on system path. This is a requirement for several features to run and debug. For this purpose, the community `devfile/universal-developer-image` is used.
+To use this example on a productized installation of OpenShift Developer Spaces, you will need to provide a specific container image with `jbang`. It means to provide your own devfile with this kind of content (here using the upstream image):
+
+```yaml
+schemaVersion: 2.1.0
+metadata:
+  name: demo-project-minimal-with-run
+components:
+  - name: tools
+    container:
+      image: quay.io/devfile/universal-developer-image:latest
+      memoryRequest: 1Gi
+      memoryLimit: 3Gi
+      cpuLimit: 1000m
+      cpuRequest: 500m
+```
