@@ -13,6 +13,8 @@ On first run, you will have to accept the `https://github.com/apache/camel/` dom
 To use this example on a productized installation of OpenShift Developer Spaces, you will need to provide a specific container image with `jbang`. It means to provide your own devfile with this kind of content (here using the upstream image):
 
 ```yaml
+# filename: devfile.yaml
+
 schemaVersion: 2.1.0
 metadata:
   name: demo-project-minimal-with-run
