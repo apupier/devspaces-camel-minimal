@@ -1,4 +1,4 @@
-[Open in Red Hat Developer Sandbox](https://workspaces.openshift.com/#https://github.com/apupier/devspaces-camel-minimal.git)
+[Open in Red Hat Developer Sandbox](https://workspaces.openshift.com/#https://github.com/apupier/devspaces-camel-minimal/tree/useProdutizedBaseImageReusingCOP)
 
 # Minimal example for Camel standalone in OpenShift Dev Spaces
 
